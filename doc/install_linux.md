@@ -47,7 +47,7 @@ Inside, create the following folders :
 2. You may follow the instructions [here][trinity_db_instructions]. Just use the world you just downloaded instead.
 
 [world_db]:
-https://github.com/TrinityTBC/database
+https://github.com/wowtbconline/TrinityTBC/releases/tag/TTDB20011
 
 [trinity_db_instructions]:
 https://trinitycore.atlassian.net/wiki/spaces/tc/pages/2130092/Databases+Installation
@@ -112,4 +112,4 @@ Just run both the **worldserver** and the **authserver** in the `<root_install_f
 Sunstrider also has some generic systemd scripts that you can use, see [this directory][restarterscripts].
 
 [restarterscripts]:
-https://github.com/TrinityTBC/core/tree/master/contrib/sunstrider
+https://github.com/wowtbconline/TrinityTBC/tree/master/contrib/sunstrider

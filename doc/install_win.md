@@ -10,14 +10,14 @@ version corresponding to the compiler version (x86 or x64) you will use, else
 the linking will fail.
 
 1. Get Git, and clone the repository
-   (https://github.com/TrinityTBC/core.git).
+   (https://github.com/wowtbconline/TrinityTBC.git).
 
 2. Install [CMake][cmake]
 
-3. Install [OpenSSL 1.0.x][openssl] note the directory to which you
+3. Install [OpenSSL 1.1.x][openssl] note the directory to which you
    install it. Caution, do not use the 'Light' version. OpenSSL 1.1 is also supported.
 
-4. Install [Boost 1.62][boost] or higher.
+4. Install [Boost 1.67][boost] or higher.
    Get the windows prebuilt binaries corresponding to your MSVC compiler. 
    Set the **environment** variable (not a CMake variable) `BOOST_ROOT` to wherever you
    installed Boost for CMake to find Boost location. 
@@ -103,7 +103,7 @@ Follow these steps after compiling the core.
 3. You may follow the instructions [here][trinity_db_instructions]. Just use the world you just downloaded instead.
 
 [world_db]:
-https://github.com/TrinityTBC/database
+https://github.com/wowtbconline/TrinityTBC/releases/tag/TTDB20011
 
 [trinity_db_instructions]:
 https://trinitycore.atlassian.net/wiki/spaces/tc/pages/2130092/Databases+Installation
