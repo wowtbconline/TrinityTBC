@@ -509,7 +509,7 @@ void WorldSession::HandleAcceptTradeOpcode(WorldPacket& /*recvPacket*/)
         trader->GetSession()->SendTradeStatus(info);
         SendTradeStatus(info);
 
-        sLogsDatabaseAccessor->CharacterTrade(_player, trader, myItems, hisItems, my_trade->GetMoney(), his_trade->GetMoney());
+        //sLogsDatabaseAccessor->CharacterTrade(_player, trader, myItems, hisItems, my_trade->GetMoney(), his_trade->GetMoney());
     }
     else
     {
